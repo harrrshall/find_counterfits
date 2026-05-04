@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-04T00:00:00Z",
+  "brand": {
+    "name": "Sherlock Holmes",
+    "trading_name": "The Sherlock Holmes Company",
+    "legal_entity": "THE SHERLOCK HOLMES COMPANY (UK) LTD",
+    "legal_entity_registry": "UK Companies House",
+    "legal_entity_number": "06039145",
+    "legal_entity_status": "Active",
+    "legal_entity_incorporated": "2007-01-02",
+    "registered_office": "Suite 58 Hampstead House, 179 Finchley Road, London, NW3 6BT, United Kingdom",
+    "primary_domain": "sherlockholmes.com",
+    "all_official_domains": ["sherlockholmes.com", "www.sherlockholmes.com", "sherlockholmes.shop"],
+    "industry": "E-commerce retail",
+    "sub_industry": "Themed merchandise (apparel, accessories, collectibles, POD goods, books)",
+    "sic_code": "47789",
+    "hq_country": "GB",
+    "year_founded": 2007,
+    "domain_first_registered": "1997-05-07",
+    "parent_company": null,
+    "officers": [
+      {"name": "Justin Shulman", "role": "Director", "appointed": "2007-01-02", "nationality": "British", "dob": "1976-02"},
+      {"name": "Marcelle Simone Shulman", "role": "Secretary", "appointed": "2007-01-02", "nationality": "British"}
+    ],
+    "one_liner": "London-registered online store selling Sherlock-Holmes-themed merchandise (apparel, accessories, POD goods, collectibles) via a Shopify storefront; not a licensee of the Conan Doyle Estate."
+  },
+  "domain_footprint": {
+    "tlds": [".com", ".shop"],
+    "subdomains": ["www"],
+    "regional_variants": [],
+    "canonical_redirects": [
+      {"from": "https://www.sherlockholmes.com/", "to": "https://sherlockholmes.com/", "code": 301},
+      {"from": "https://sherlockholmes.shop/", "to": "https://www.sherlockholmes.com/collections/all/", "code": 301}
+    ],
+    "platform": "Shopify",
+    "shop_id": "83785974069",
+    "cdn": "cdn.shopify.com",
+    "edge": "Cloudflare (served from gcp-asia-southeast1, gcp-europe-west4)"
+  },
+  "visual_identity": {
+    "logos": [
+      {"variant": "primary", "url": "https://sherlockholmes.com/cdn/shop/files/sherlock-holmes_gold-New.png?v=1697305115", "native_size": "445x184", "source": "https://sherlockholmes.com/ (header img)"},
+      {"variant": "favicon", "url": "https://sherlockholmes.com/cdn/shop/files/FAVICON_2630f2a3-b726-4bdd-a8c3-be2a493f4e38.png?v=1697650448", "source": "https://sherlockholmes.com/ (link rel=icon)"}
+    ],
+    "colors": [
+      {"hex": "#000000", "role": "primary text", "confidence": "high"},
+      {"hex": "#FFFFFF", "role": "primary background", "confidence": "high"},
+      {"hex": "GOLD (gold-yellow, exact hex unverified)", "role": "accent / wordmark", "confidence": "low"}
+    ],
+    "fonts": [
+      {"family": "Sherlock-Script", "role": "headings (H2)", "confidence": "med", "source": "homepage computed style"},
+      {"family": "system sans-serif (default)", "role": "body", "confidence": "med"}
+    ],
+    "packaging_features": []
+  },
+  "textual_identity": {
+    "slogans": [
+      {"phrase": "Official Site", "verified_registered": false, "note": "Self-asserted on homepage <title>; NOT licensed by Conan Doyle Estate Ltd, the actual SHERLOCK HOLMES trademark holder."},
+      {"phrase": "Just Deduce It", "verified_registered": false, "note": "Used across 12 SKUs; trademark status not confirmed via UKIPO/USPTO direct search.", "open_question": true}
+    ],
+    "distinctive_phrases": [
+      "Step into the world of Sherlock Holmes and prepare to be captivated by the allure of mystery and intrigue!",
+      "Your One-Stop Shop for All Things Sherlock",
+      "From 221B to Your Doorstep",
+      "Elevate Your Detective Style",
+      "Unlock Your Inner Detective"
+    ],
+    "naming_conventions": [
+      "Sherlock Holmes - {sub-line} - {product type}",
+      "Just Deduce It - {product type}",
+      "Sherlock Holmes Gazette - Issue {NN} - Digital Download"
+    ]
+  },
+  "products": {
+    "_summary": {
+      "total_skus": 126,
+      "bestseller_count": 38,
+      "vendor_field_breakdown": {"Sherlock Holmes": 57, "The Sherlock Holmes Company": 40, "Printify": 12, "sherlock holmes": 17},
+      "base_currency": "GBP",
+      "price_range_base": {"min_gbp": 2.32, "max_gbp": 2250.0},
+      "presentment_currency_default": "INR (storefront converts via Shopify Markets multiplier ~140-180x)",
+      "free_shipping_threshold": "GBP 50",
+      "full_catalog_artifact": "./memory/BRAND_PROFILES/sherlock-holmes/raw_artifacts/products_full.json",
+      "common_fake_tells": [
+        "Image hash matches against any of the 126 SKU image URLs in the saved catalog",
+        "Use of the exact phrase 'Just Deduce It' combined with Sherlock visual motifs",
+        "Use of the gold wordmark logo (sherlock-holmes_gold-New.png) without authorization",
+        "Use of the 'Sherlock-Script' webfont in product mockups",
+        "Listings of 'Sherlock Holmes Gazette - Issue NN' (uniquely identifying digital SKU line)"
+      ]
+    },
+    "top_skus_sample": [
+      {"handle": "sherlock-holmes-silhouette-collection-hard-shell-suitcase", "title": "Sherlock Holmes - Silhouette Collection - Hard-shell suitcase", "type": "Bestsellers", "vendor": "Sherlock Holmes", "price_gbp_min": 550.0, "price_gbp_max": 750.0, "url": "https://sherlockholmes.com/products/sherlock-holmes-silhouette-collection-hard-shell-suitcase"},
+      {"handle": "sherlock-holmes-just-deduce-it-hard-shell-suitcase", "title": "Sherlock Holmes - Just Deduce It - Hard-shell suitcase", "type": "Accessories", "vendor": "The Sherlock Holmes Company", "price_gbp_min": 724.5, "price_gbp_max": 871.05, "url": "https://sherlockholmes.com/products/sherlock-holmes-just-deduce-it-hard-shell-suitcase"},
+      {"handle": "sherlock-holmes-gold-lapel-pin", "title": "Sherlock Holmes Gold Lapel pin", "type": "Bestsellers", "vendor": "The Sherlock Holmes Company", "price_gbp": 5.0, "url": "https://sherlockholmes.com/products/sherlock-holmes-gold-lapel-pin"},
+      {"handle": "sherlock-holmes-memorabilia-keyring", "title": "Sherlock Holmes Memorabilia Keyring", "type": "Bestsellers", "vendor": "The Sherlock Holmes Company", "price_gbp": 5.0, "url": "https://sherlockholmes.com/products/sherlock-holmes-memorabilia-keyring"},
+      {"handle": "just-deduce-it-unisex-organic-sweatshirt", "title": "Just Deduce it! Unisex organic sweatshirt", "type": "Sweatshirt", "vendor": "Sherlock Holmes", "price_gbp": 39.99, "url": "https://sherlockholmes.com/products/just-deduce-it-unisex-organic-sweatshirt"}
+    ]
+  },
+  "authorized_presence": {
+    "social_handles": [
+      {"platform": "Instagram", "handle": "@thesherlockholmescompany", "url": "https://www.instagram.com/thesherlockholmescompany/", "verified_badge": null, "confidence": "low"},
+      {"platform": "Facebook", "handle": "SherlockHolmesCompany", "url": "https://www.facebook.com/SherlockHolmesCompany", "verified_badge": null, "confidence": "low"},
+      {"platform": "TikTok", "handle": "@sherlock.holmes.uk", "url": "https://www.tiktok.com/@sherlock.holmes.uk", "verified_badge": null, "confidence": "low"},
+      {"platform": "LinkedIn", "handle": "the-sherlock-holmes-memorabilia-company", "url": "https://www.linkedin.com/company/the-sherlock-holmes-memorabilia-company/", "verified_badge": null, "confidence": "low", "note": "Page name references 'Memorabilia Company' (a related Ltd, #02666173 at same Hampstead address) — not 'The Sherlock Holmes Company (UK) Ltd' directly."}
+    ],
+    "authorized_resellers": [],
+    "marketplace_storefronts": []
+  },
+  "legal": {
+    "trademarks_owned_confirmed": [],
+    "trademarks_relevant_third_party": [
+      {"mark": "SHERLOCK HOLMES", "registry": "USPTO", "number": "4313984", "owner": "Conan Doyle Estate Limited", "url": "https://trademarks.justia.com/854/47/sherlock-85447511.html"},
+      {"mark": "SHERLOCK HOLMES", "registry": "USPTO", "number": "4690745", "owner": "Conan Doyle Estate Limited", "url": "https://trademarks.justia.com/861/26/sherlock-86126503.html"}
+    ],
+    "ip_dispute_history": [
+      "Klinger v. Conan Doyle Estate, Ltd. (7th Cir. 2014) — established that nearly all Sherlock Holmes stories are public domain in the US.",
+      "Per Sherlockian.net community reference, 'The Sherlock Holmes Memorabilia Company' (related entity at same address) was opposed by Conan Doyle Estate Ltd in trademark proceedings."
+    ],
+    "is_official_trademark_licensee": false,
+    "dmca_contact": {"name": "(generic)", "email": "sales@sherlockholmes.shop", "url": null},
+    "brand_registry_enrollments": []
+  },
+  "pricing_baseline": {
+    "currency_base": "GBP",
+    "currency_presentment_default": "INR",
+    "lowest_authorized_price_90d_gbp": 2.32,
+    "highest_authorized_price_90d_gbp": 2250.0,
+    "free_shipping_threshold_gbp": 50,
+    "map_policy_url": null
+  },
+  "known_fake_patterns": {
+    "official_guide_url": null,
+    "documented_patterns": [],
+    "recent_bust_news": [],
+    "agent_inferred_high_value_signals": [
+      "Image-hash match against any URL in raw_artifacts/products_full.json -> images[].src",
+      "Listings using 'Just Deduce It' phrase + Sherlock motif",
+      "Use of the gold wordmark logo (cdn/shop/files/sherlock-holmes_gold-New.png) outside this domain",
+      "Use of 'Sherlock-Script' custom webfont",
+      "Replicas of 'Sherlock Holmes Gazette - Issue NN - Digital Download' (uniquely identifying)",
+      "Sellers claiming they are the 'Official' Sherlock Holmes site outside sherlockholmes.com"
+    ],
+    "structural_caveats": [
+      "Sherlock Holmes character is largely public domain (US: pre-1928 stories; UK: copyright expired 1980). A 'fake' classifier keyed on 'is this Sherlock Holmes branded merch?' will produce false positives because anyone may legally produce Sherlock-Holmes-themed merchandise.",
+      "This brand is NOT the trademark holder; downstream legal claims of 'counterfeit' should be limited to copying of THIS BRAND's specific product photography, distinctive phrases (Just Deduce It), and visual assets.",
+      "12 SKUs use vendor='Printify' (a print-on-demand fulfillment platform) — same back-end could be used by anyone, so SKU-level uniqueness is weak for those items."
+    ]
+  },
+  "research_metadata": {
+    "session_date": "2026-05-04",
+    "agent_version": "AGENT.md v1.0",
+    "sources_consulted": [
+      "https://sherlockholmes.com/",
+      "https://sherlockholmes.com/policies/privacy-policy",
+      "https://sherlockholmes.com/policies/terms-of-service",
+      "https://sherlockholmes.com/pages/about-us",
+      "https://sherlockholmes.com/products.json",
+      "https://find-and-update.company-information.service.gov.uk/company/06039145",
+      "https://find-and-update.company-information.service.gov.uk/company/06039145/officers",
+      "https://rdap.verisign.com/com/v1/domain/sherlockholmes.com",
+      "https://conandoyleestate.com/licensing/trademarks-and-copyrights",
+      "https://trademarks.justia.com/854/47/sherlock-85447511.html",
+      "https://en.wikipedia.org/wiki/Klinger_v._Conan_Doyle_Estate,_Ltd.",
+      "https://www.archive.sherlockian.net/acd/copyright.html"
+    ],
+    "field_confidence": {
+      "brand.legal_entity": "high",
+      "brand.primary_domain": "high",
+      "brand.officers": "high",
+      "domain_footprint": "high",
+      "visual_identity.logos.primary": "high",
+      "visual_identity.colors": "low",
+      "visual_identity.fonts": "med",
+      "textual_identity.distinctive_phrases": "med",
+      "products._summary": "high",
+      "authorized_presence.social_handles.verified_badge": "low",
+      "authorized_presence.marketplace_storefronts": "low",
+      "legal.trademarks_owned_confirmed": "low",
+      "legal.is_official_trademark_licensee": "high"
+    },
+    "open_questions": [
+      "Confirm UKIPO and USPTO trademark filings owned by Companies House #06039145 (none surfaced in indirect search; need direct registry walk)",
+      "Confirm 'Just Deduce It' trademark registration status (likely unregistered, but unconfirmed)",
+      "Confirm verified-badge status on Instagram, Facebook, TikTok, LinkedIn (auth wall blocked in this session)",
+      "Confirm any presence on marketplaces (Amazon Brand Store, Flipkart, Myntra, Etsy)",
+      "Confirm relationship between #06039145 ('The Sherlock Holmes Company (UK) Ltd') and #02666173 ('The Sherlock Holmes Memorabilia Company Limited') — same address, LinkedIn page references the latter",
+      "Confirm exact gold/yellow accent hex from CSS (not exposed via theme variables)",
+      "Confirm whether brand has filed any DMCA / takedown notices historically"
+    ],
+    "time_spent_minutes": 35
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-04T00:00:00Z",
+  "brand": {
+    "name": "HandsOn Gloves",
+    "trading_names": ["HandsOnGloves", "HandsOn Gloves The Original"],
+    "legal_entity_family": [
+      {"name": "HandsOn Happy Assets Corporation", "role": "named in storefront ToS Section 20", "source": "https://handsongloves.com/policies/terms-of-service"},
+      {"name": "HandsOn Equine, LLC", "role": "patent assignee + plaintiff in IP litigation; Texas LLC", "source": "USPTO USD893111S1; HandsOn Equine v. Amazon complaint; Pat Your Pet complaint"},
+      {"name": "Handson Gloves, LLC", "role": "named patent grantee; named in 2020 patent", "source": "USPTO USD893111S1 (uspto.report)"}
+    ],
+    "operating_address": "7576 Retta Mansfield Road, Mansfield, TX 76063, USA",
+    "address_in_litigation_secondary": "Austin, Texas (one filing)",
+    "phone": "(817) 477-0017",
+    "email": "info@handsongloves.com",
+    "primary_domain": "handsongloves.com",
+    "all_official_domains": ["handsongloves.com"],
+    "industry": "Pet supplies / animal grooming + gardening",
+    "sub_industry": "Patented grooming gloves (cats, dogs, horses, livestock); gardening gloves; hoof picks",
+    "hq_country": "US",
+    "hq_state": "TX",
+    "year_brand_first_use": 2015,
+    "domain_first_registered": "2013-03-03",
+    "parent_company": null,
+    "ownership": "Family-owned, North Texas",
+    "manufacturing": "Designed in Texas, manufactured in China",
+    "one_liner": "Family-owned Texas company designing patented animal-grooming and gardening gloves; actively litigates against counterfeiters; #1 ranked / multi-award-winning."
+  },
+  "domain_footprint": {
+    "tlds": [".com"],
+    "subdomains": [],
+    "regional_variants": [],
+    "canonical_redirects": [],
+    "platform": "Shopify",
+    "shopify_files_path": "cdn.shopify.com/s/files/1/0683/9202/6285/",
+    "registrar": "GoDaddy.com, LLC"
+  },
+  "visual_identity": {
+    "logos": [
+      {"variant": "favicon", "url": "https://handsongloves.com/cdn/shop/files/HandsOnSiteIcon.png?v=1736366250", "source": "homepage <link rel=icon>"},
+      {"variant": "wordmark", "description": "'H HANDSON' wordmark with green stylized hand monogram (visible on glove cuff per product photography and Amazon listings)", "source": "product imagery + reference image supplied by user"}
+    ],
+    "colors": [
+      {"hex": "#000000", "role": "primary text / glove black colorway", "confidence": "high"},
+      {"hex": "BRAND_GREEN_unverified", "role": "logo accent (visible 'HANDSON' green wordmark on cuff)", "confidence": "med"}
+    ],
+    "fonts": [],
+    "packaging_features": ["Velcro wrist strap with 'HANDSON' green wordmark + hand monogram (visible on Animal Gloves product photo)"]
+  },
+  "textual_identity": {
+    "slogans": [
+      {"phrase": "MOST IMITATED, NEVER DUPLICATED", "verified_registered": false, "note": "Anti-counterfeit positioning on homepage marquee; strong distinctive seed."},
+      {"phrase": "Changing the way we groom forever", "verified_registered": false},
+      {"phrase": "Making grooming as natural as petting", "verified_registered": false},
+      {"phrase": "Patented #1 Ranked Award Winning Shedding, Bathing, & Hair Remover Gloves", "verified_registered": false}
+    ],
+    "distinctive_phrases": [
+      "The scrubbing nodules on the fingers and palms provide a deep thorough clean and are the best de-shedders on the market today",
+      "Just a simple flick of the wrist and the hair instantly releases",
+      "Patented, first of its kind nodules on all the fingers and palm",
+      "Award-winning flexible, textured gloves massage, boost circulation, and distribute natural oils"
+    ],
+    "naming_conventions": ["HandsOn {Product}"]
+  },
+  "products": {
+    "_summary": {
+      "total_skus": 5,
+      "currency": "USD",
+      "price_range_usd": {"min": 10.00, "max": 24.99},
+      "flagship_sku": "handson-gloves",
+      "full_catalog_artifact": "./memory/BRAND_PROFILES/handson-gloves/raw_artifacts/products_full.json",
+      "common_fake_tells": [
+        "Image-hash match against any of the 33 SKU image URLs in the saved catalog",
+        "Use of HGLV / GARD / FNSH / HFP SKU prefix on a non-authorized seller",
+        "Listings using the patented nodule glove silhouette",
+        "Use of 'HandsOn' / 'Hands On' / 'Hands-On' in pet-grooming-glove titles outside Amazon merchant A4L4GSX1OQUQL",
+        "Citing 'patented', '#1 Ranked', 'Award-Winning' on listings not in Amazon Brand Registry",
+        "Price significantly below $19.99 (the brand's product floor) on third-party marketplaces"
+      ]
+    },
+    "skus": [
+      {"handle": "handson-gloves", "title": "HandsOn Animal Gloves", "url": "https://handsongloves.com/products/handson-gloves", "price_usd": [20.00, 24.99], "variants_count": 40, "sizes": ["Junior", "Small", "Medium", "Large", "X-Large"], "colors": ["Black", "Blue", "Grey", "Red", "Purple", "Mono Purple", "Green", "Mono Green"], "sku_prefix_size": "HGLV1xx", "sku_prefix_color": "HGLV3xx", "image_count": 13, "key_image": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOn_Animal_Black.jpg"},
+      {"handle": "handson-gardening-gloves", "title": "HandsOn Gardening Gloves", "url": "https://handsongloves.com/products/handson-gardening-gloves", "price_usd": [24.99, 24.99], "variants_count": 2, "sizes": ["Medium", "Large"], "sku_prefix": "GARD3xx", "image_count": 7},
+      {"handle": "handson-finishing-gloves", "title": "HandsOn Finishing Gloves", "url": "https://handsongloves.com/products/handson-finishing-gloves", "price_usd": [19.99, 19.99], "variants_count": 2, "sizes": ["Small/Medium", "Large"], "sku_prefix": "FNSH2xx", "image_count": 5},
+      {"handle": "handson-hoof-pick", "title": "HandsOn Hoof Pick", "url": "https://handsongloves.com/products/handson-hoof-pick", "price_usd": [19.99, 19.99], "variants_count": 1, "sku": "HFP1001", "image_count": 6},
+      {"handle": "handson-gloves-hat", "title": "HandsOn Hat (merch)", "url": "https://handsongloves.com/products/handson-gloves-hat", "price_usd": [10.00, 10.00], "variants_count": 1, "sku": "HGLVHAT", "image_count": 2}
+    ]
+  },
+  "authorized_presence": {
+    "social_handles": [
+      {"platform": "Instagram", "handle": "HandsOnGloves", "url": "https://www.instagram.com/HandsOnGloves/", "verified_badge": null, "confidence": "low"},
+      {"platform": "Facebook", "handle": "HandsOnGloves", "url": "https://www.facebook.com/HandsOnGloves/", "verified_badge": null, "confidence": "low"},
+      {"platform": "YouTube", "handle": "@HandsOnGloves", "channel_id": "UCtHWdBCIKCy-ZzG2PrvX6bw", "url": "https://www.youtube.com/@HandsOnGloves", "verified_badge": null, "confidence": "low"}
+    ],
+    "authorized_resellers_high_confidence": [
+      {"name": "Chewy", "url": "https://www.chewy.com/handson-all-in-one-pet-bathing/dp/136594", "regions": ["US"], "source": "Independent retailer with brand-named product line"},
+      {"name": "Dover Saddlery", "url": "https://www.doversaddlery.com/products/handson-gloves-in-colors", "regions": ["US"], "source": "Brand-named SKU page on national equestrian retailer"},
+      {"name": "Premier1Supplies", "url": "https://www.premier1supplies.com/p/handson-grooming-gloves", "regions": ["US"], "source": "Brand-named SKU page on national livestock retailer"}
+    ],
+    "authorized_resellers_to_verify": [
+      {"name": "Triple Crown Tack", "url": "https://triplecrowntack.com/handson-grooming-and-bathing-gloves/", "status": "claimed; not formally verified"},
+      {"name": "R.E. Fennell Co. Inc.", "url": "https://fennells.com/shop/handson-gloves/", "status": "claimed; not formally verified"},
+      {"name": "Franklin Saddlery", "url": "https://www.franklinhorse.com/handson-grooming-bathing-gloves.html", "status": "claimed; not formally verified"},
+      {"name": "King Duke's", "url": "https://www.kingdukes.com/products/handson-gloves-dog-grooming", "status": "claimed; not formally verified"},
+      {"name": "The Fussy Pup", "url": "https://thefussypup.com/pages/h-handson-pet-grooming-gloves", "status": "claimed; not formally verified"}
+    ],
+    "marketplace_storefronts": [
+      {"platform": "Amazon", "name": "HandsOn Gloves The Original", "merchant_id": "A4L4GSX1OQUQL", "url": "https://www.amazon.com/s?i=merchant-items&me=A4L4GSX1OQUQL", "verification": "Brand-operated storefront; non-A4L4GSX1OQUQL Amazon sellers using 'HandsOn' name require scrutiny"}
+    ],
+    "wholesale_program_url": "https://handsongloves.com/wholesale/"
+  },
+  "legal": {
+    "patents": [
+      {"number": "USD858906", "title": "Animal bathing and grooming glove", "inventor": "Jay Michaelson", "assignee": "Handson Equine, LLC", "status": "active", "cited_in_litigation": "HandsOn Equine v. Pat Your Pet (D. Colo. 1:19-cv-02570, filed 2019-09-10)"},
+      {"number": "USD893111", "title": "Animal bathing and grooming glove", "inventor": "Jay Michaelson", "filed": "2020-03-02", "granted": "2020-08-11", "anticipated_expiration": "2035-08-11", "assignee": "Handson Equine LLC", "status": "active", "url": "https://patents.google.com/patent/USD893111S1/"}
+    ],
+    "potentially_competing_or_copycat_filings": [
+      {"number": "USD988615", "title": "Pet grooming glove", "inventor": "Haiqing Zhang", "filed": "2021-07-XX", "note": "Similar product class, different inventor; status (legitimate competitor vs counterfeit-cover filing) unverified", "open_question": true}
+    ],
+    "trademarks_owned_confirmed": [
+      {"mark": "HANDSON", "owner": "HandsOn Equine, LLC (or related entity)", "first_use_in_commerce": "fall 2015", "registry": "USPTO", "registration_number": null, "status": "registration number not confirmed in this session", "open_question": true}
+    ],
+    "litigation_history": [
+      {"case_name": "HandsOn Equine, LLC v. Amazon.com", "type": "trademark + counterfeit", "complaint_url": "https://www.scribd.com/document/413742153/HandsOn-Equine-v-Amazon-com-Complaint"},
+      {"case_name": "HandsOn Equine, LLC d/b/a HandsOn Gloves v. Pat Your Pet", "case_number": "1:19-cv-02570", "court": "U.S. District Court for the District of Colorado", "filed": "2019-09-10", "type": "design patent infringement (D858,906)", "defendant_origin": "Kyiv, Ukraine; foreign corporation", "defendant_channels": ["Chewy.com", "Amazon.com"], "complaint_url": "https://www.scribd.com/document/425747668/Handson-Gloves-v-Pat-Your-Pet-Complaint", "outcome": "unknown / unverified"}
+    ],
+    "is_official_trademark_owner": true,
+    "dmca_contact": {"name": "HandsOn Gloves Customer Support", "email": "info@handsongloves.com", "url": null},
+    "brand_registry_enrollments": ["Amazon Brand Registry: highly likely (operates 'HandsOn Gloves The Original' brand storefront with merchant ID A4L4GSX1OQUQL); not formally confirmed."]
+  },
+  "pricing_baseline": {
+    "currency": "USD",
+    "lowest_authorized_price_90d_usd": 19.99,
+    "lowest_listed_price_excluding_merch_usd": 19.99,
+    "highest_authorized_price_90d_usd": 24.99,
+    "merch_floor_usd": 10.00,
+    "free_shipping_threshold_usd": null,
+    "map_policy_url": null,
+    "counterfeit_floor_signal": "Listings of HandsOn Animal Gloves below $19.99 on third-party marketplaces are a strong red flag."
+  },
+  "known_fake_patterns": {
+    "official_guide_url": null,
+    "documented_patterns": [
+      "Foreign sellers (Ukraine, China) copying the patented nodule silhouette of D858,906",
+      "Sales via Chewy.com and Amazon.com marketplaces using similar product names",
+      "Verbatim listing copy mentioning 'patented', 'deshedding', 'five-finger', 'flick of the wrist'",
+      "Use of 'HandsOn' / 'Hands On' / 'Hands-On' / 'HANDSON' name in product titles by non-authorized sellers"
+    ],
+    "recent_bust_news": [],
+    "agent_inferred_high_value_signals": [
+      "Image-hash match against any cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOn_*.jpg URL in raw_artifacts/products_full.json",
+      "Listings replicating the per-color hero shots (HandsOn_Animal_Black/Blue/Grey/Red/Purple/Green/Mono-Purple/Mono-Green.jpg)",
+      "SKU prefix use (HGLV / GARD / FNSH / HFP) outside the brand's own Amazon merchant ID A4L4GSX1OQUQL",
+      "Use of 'MOST IMITATED, NEVER DUPLICATED' tagline by anyone other than the brand",
+      "Listings citing patent claims attached to non-Amazon-Brand-Registry sellers",
+      "Title contains 'HandsOn' AND merchant != A4L4GSX1OQUQL AND not a known authorized reseller from authorized_resellers_high_confidence"
+    ],
+    "structural_caveats": [
+      "5 SKUs only — small catalog, easy for the classifier to cover exhaustively.",
+      "Manufacturing is in China (per company's public statements). Importer-counterfeiters can plausibly source visually similar gloves from same/adjacent factories — silhouette match alone isn't dispositive; combine with name/brand-mark match.",
+      "Patent D858,906 covers ornamental design — useful for detecting visual copies but not gloves with a meaningfully different aesthetic that perform similar function."
+    ]
+  },
+  "research_metadata": {
+    "session_date": "2026-05-04",
+    "agent_version": "AGENT.md v1.0",
+    "sources_consulted": [
+      "https://handsongloves.com/",
+      "https://handsongloves.com/policies/terms-of-service",
+      "https://handsongloves.com/pages/about-us",
+      "https://handsongloves.com/pages/contact",
+      "https://handsongloves.com/pages/store-locator",
+      "https://handsongloves.com/products.json",
+      "https://rdap.verisign.com/com/v1/domain/handsongloves.com",
+      "https://patents.google.com/patent/USD893111S1/",
+      "https://uspto.report/patent/grant/D893,111",
+      "https://www.scribd.com/document/413742153/HandsOn-Equine-v-Amazon-com-Complaint",
+      "https://www.scribd.com/document/425747668/Handson-Gloves-v-Pat-Your-Pet-Complaint",
+      "https://www.amazon.com/s?i=merchant-items&me=A4L4GSX1OQUQL"
+    ],
+    "field_confidence": {
+      "brand.legal_entity_family": "high",
+      "brand.operating_address": "high",
+      "domain_footprint": "high",
+      "visual_identity.logos": "med",
+      "visual_identity.colors": "low",
+      "products._summary": "high",
+      "products.skus": "high",
+      "authorized_presence.marketplace_storefronts.amazon": "high",
+      "authorized_presence.authorized_resellers_high_confidence": "med",
+      "authorized_presence.social_handles.verified_badge": "low",
+      "legal.patents": "high",
+      "legal.trademarks_owned_confirmed.registration_number": "low",
+      "legal.litigation_history": "high",
+      "known_fake_patterns.documented_patterns": "high (sourced from court filings)"
+    },
+    "open_questions": [
+      "USPTO trademark registration number(s) for HANDSON (Justia 403'd; needs direct TSDR / TESS walk)",
+      "Map TX SOSDirect entities: HandsOn Happy Assets Corporation, HandsOn Equine LLC, HandsOn Gloves LLC — which is the seller-of-record vs IP holder vs operator?",
+      "Confirm Amazon Brand Registry enrollment status",
+      "Confirm verified-badge status for IG / FB / YouTube",
+      "Investigate USD988,615 (Haiqing Zhang) — related, competing, or counterfeit-attempt filing?",
+      "Address discrepancy: Mansfield TX (ToS) vs Austin TX (one court filing) — current operating address?",
+      "Free-shipping threshold and MAP policy",
+      "Pat Your Pet lawsuit outcome (settlement/judgment)",
+      "Formal verification of 5 secondary authorized resellers (Triple Crown Tack, R.E. Fennell, Franklin Saddlery, King Duke's, The Fussy Pup)"
+    ],
+    "time_spent_minutes": 25
+  }
+}

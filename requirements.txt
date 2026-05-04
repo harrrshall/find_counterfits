@@ -1,0 +1,5 @@
+requests>=2.31
+Pillow>=10
+ImageHash>=4.3
+rich>=13
+streamlit>=1.30

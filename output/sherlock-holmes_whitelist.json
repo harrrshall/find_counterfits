@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-04T00:00:00Z",
+  "purpose": "Authoritative whitelist of parties authorized to sell Sherlock-Holmes-branded merchandise. Any seller/listing not matching one of these (or a verified licensee of party 1) should be classified as UNAUTHORIZED by the downstream pipeline.",
+  "scope_note": "This whitelist is product-category-scoped to Sherlock Holmes merchandise. It does not imply that LEGO is whitelisted for non-Sherlock product categories — only that LEGO Sherlock Holmes products are authorized.",
+  "authorized_parties": [
+    {
+      "rank": 1,
+      "role": "IP rights holder (canonical)",
+      "name": "Conan Doyle Estate Limited",
+      "legal_entity": "CONAN DOYLE ESTATE LIMITED",
+      "registry": "UK Companies House",
+      "registry_number": "05470933",
+      "incorporated": "2005-06-03",
+      "registered_office": "9 London Road, Southampton, Hampshire, SO15 2AE, United Kingdom",
+      "status": "Active",
+      "directors_named_publicly": [
+        {"name": "Richard Pooley", "role": "Director", "relation": "Step Great Grandson of Sir Arthur Conan Doyle"},
+        {"name": "Richard Doyle", "role": "Director", "relation": "Great-Nephew of Sir Arthur Conan Doyle"},
+        {"name": "Catherine Beggs", "role": "Director", "relation": "Great-Niece of Sir Arthur Conan Doyle"}
+      ],
+      "official_domains": [
+        "conandoyleestate.com",
+        "arthurconandoyle.co.uk"
+      ],
+      "official_social_handles": [
+        {"platform": "Facebook", "handle": "@conandoyleestate"},
+        {"platform": "X / Twitter", "handle": "@conandoyleest"},
+        {"platform": "Instagram", "handle": "@conandoyleofficial"}
+      ],
+      "trademarks_owned": [
+        {"mark": "SHERLOCK HOLMES", "registry": "USPTO", "number": "4313984"},
+        {"mark": "SHERLOCK HOLMES", "registry": "USPTO", "number": "4690745"}
+      ],
+      "named_partners_or_licensees_disclosed_on_estate_homepage": [
+        "HBO", "CBS", "Warner Bros", "BBC", "ITV", "Miramax", "Fox",
+        "Audible", "Penguin", "Lerner", "Studio Press", "Orion Books", "Pan Macmillan"
+      ],
+      "licensees_note": "Any verified licensee of Conan Doyle Estate Limited is by extension authorized for Sherlock Holmes products. The list above is the public partnership list from the Estate's homepage; treat each as an authorized publisher/broadcaster within their respective category. The downstream classifier should additionally consult the Estate's licensing inquiries channel for any party claiming Estate licensing not on this list.",
+      "sources": [
+        "https://find-and-update.company-information.service.gov.uk/company/05470933",
+        "https://conandoyleestate.com/",
+        "https://conandoyleestate.com/the-family",
+        "https://trademarks.justia.com/854/47/sherlock-85447511.html"
+      ]
+    },
+    {
+      "rank": 2,
+      "role": "Authorized licensee — physical product (toys/collectibles)",
+      "name": "LEGO (Sherlock Holmes line)",
+      "legal_entity": "The LEGO Group / LEGO System A/S",
+      "scope": "Only LEGO products that are explicitly Sherlock-Holmes-themed. LEGO sets without Sherlock-Holmes branding are out of scope of this whitelist (they are simply unrelated to the category).",
+      "official_domains": [
+        "lego.com",
+        "ideas.lego.com"
+      ],
+      "authorized_skus": [
+        {
+          "set_number": "10351",
+          "name": "Sherlock Holmes: Book Nook",
+          "line": "LEGO Icons",
+          "released": "2025-04",
+          "pieces": 1359,
+          "minifigures": ["Sherlock Holmes", "Dr Watson", "Irene Adler", "Professor Moriarty", "Paige"],
+          "rrp_usd": 129.99,
+          "official_url": "https://www.lego.com/en-us/product/sherlock-holmes-book-nook-10351",
+          "bricklink_url": "https://www.bricklink.com/v2/catalog/catalogitem.page?S=10351-1",
+          "note": "First-ever official LEGO Sherlock Holmes set."
+        }
+      ],
+      "downstream_authorized_resellers": "Standard LEGO authorized retailers (e.g., Target, Walmart, Amazon's official LEGO storefront, Barnes & Noble, official LEGO stores). The classifier should treat LEGO set 10351 sold through these channels as authorized; LEGO 10351 sold by random third-party sellers may be authentic resale (legal under first-sale doctrine) but warrants standard counterfeit-product checks (image hash, packaging features).",
+      "open_question": "Confirm whether additional Sherlock-Holmes-themed LEGO sets exist or are in the pipeline beyond 10351 — re-check on next session.",
+      "sources": [
+        "https://www.lego.com/en-us/product/sherlock-holmes-book-nook-10351",
+        "https://www.bricklink.com/v2/catalog/catalogitem.page?S=10351-1",
+        "https://brickset.com/inventories/10351-1"
+      ]
+    },
+    {
+      "rank": 3,
+      "role": "Authorized seller — themed merchandise storefront",
+      "name": "The Sherlock Holmes Company (UK) Ltd",
+      "legal_entity": "THE SHERLOCK HOLMES COMPANY (UK) LTD",
+      "registry": "UK Companies House",
+      "registry_number": "06039145",
+      "official_domains": ["sherlockholmes.com", "sherlockholmes.shop"],
+      "full_profile_reference": "./output/sherlock-holmes_profile.json",
+      "note": "User-designated whitelist party. Note: this entity is NOT a verified Conan Doyle Estate licensee per the Estate's public partnership list; the user has elected to whitelist them anyway based on independent business knowledge. Downstream pipeline should treat sherlockholmes.com listings as authorized but flag any third-party seller cloning their assets (image hash, 'Just Deduce It' phrase, gold wordmark) as unauthorized — see full profile for fake-pattern signals."
+    }
+  ],
+  "classification_rule_for_pipeline": {
+    "authorized_if": [
+      "Seller domain is conandoyleestate.com OR arthurconandoyle.co.uk",
+      "Seller is a verified Conan Doyle Estate licensee/partner from the named partnership list",
+      "Seller domain is lego.com OR ideas.lego.com OR a standard LEGO authorized retailer (Target, Walmart, Amazon, Barnes & Noble), AND product is LEGO set 10351 (Sherlock Holmes: Book Nook) or a future Sherlock-Holmes-themed LEGO set",
+      "Seller domain is sherlockholmes.com OR sherlockholmes.shop"
+    ],
+    "unauthorized_otherwise": "Any other seller (independent Shopify stores, AliExpress, Wish, Etsy unverified sellers, Amazon third-party sellers other than the authorized resellers above) selling Sherlock-Holmes-branded merchandise is classified UNAUTHORIZED by default."
+  },
+  "research_metadata": {
+    "session_date": "2026-05-04",
+    "agent_version": "AGENT.md v1.0 (lightweight whitelist supplement)",
+    "open_questions": [
+      "Catalog any additional licensed publishers/broadcasters not on the Estate's homepage list (the Estate likely has more licensees than the 13 it advertises)",
+      "Confirm the LEGO 10351 set is the only current Sherlock-Holmes-themed LEGO product — check for any minifigure-collector-series or Ideas releases beyond 10351",
+      "If the user wants, run a second-pass to verify the named Estate partners (HBO, CBS, etc.) actually currently hold active Sherlock licenses (some may be historical)"
+    ]
+  }
+}

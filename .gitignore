@@ -1,0 +1,25 @@
+# secrets — never commit
+.env
+.env.*
+*.key
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+*.swp
+
+# transient artifacts not worth versioning
+/tmp/
+*.log

@@ -1,0 +1,235 @@
+{
+  "brand": "handson-gloves",
+  "built_at": "2026-05-04T06:36:54.549233+00:00",
+  "hash_size": 8,
+  "match_thresholds": {
+    "strong": 6,
+    "weak": 10
+  },
+  "entries": [
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HoofPick-4.jpg?v=1743544263",
+      "product_handle": "handson-hoof-pick",
+      "product_title": "HandsOn Hoof Pick",
+      "phash": "b6c1c93636c1ca3e",
+      "dhash": "000c021c0d2d000c"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HOOF_PICK_PHOTO.png?v=1743626352",
+      "product_handle": "handson-hoof-pick",
+      "product_title": "HandsOn Hoof Pick",
+      "phash": "d22640e53bdb8736",
+      "dhash": "cc8d2d191cec9cbc"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HoofPick-3.jpg?v=1743626352",
+      "product_handle": "handson-hoof-pick",
+      "product_title": "HandsOn Hoof Pick",
+      "phash": "e699996331669999",
+      "dhash": "4c2d0d4d4d4d4d0d"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/DSC_0042_EDITED.jpg?v=1743626352",
+      "product_handle": "handson-hoof-pick",
+      "product_title": "HandsOn Hoof Pick",
+      "phash": "b7103f87b0df0570",
+      "dhash": "7d1f8faf8d463b0f"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HoofPick-7.jpg?v=1743626352",
+      "product_handle": "handson-hoof-pick",
+      "product_title": "HandsOn Hoof Pick",
+      "phash": "839ffc600a93256f",
+      "dhash": "c01144f1c7d601c6"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HoofPick-8.jpg?v=1743626352",
+      "product_handle": "handson-hoof-pick",
+      "product_title": "HandsOn Hoof Pick",
+      "phash": "8c11f3ef1e908d2d",
+      "dhash": "300df0fd77660066"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOn_FinishingGloves.png?v=1743626456",
+      "product_handle": "handson-finishing-gloves",
+      "product_title": "HandsOn Finishing Gloves",
+      "phash": "bb90f06a83e7ccc4",
+      "dhash": "9a3d3653591b4f86"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/Finishing-Gloves-Web-7.jpg?v=1743626469",
+      "product_handle": "handson-finishing-gloves",
+      "product_title": "HandsOn Finishing Gloves",
+      "phash": "b903c876a891aebd",
+      "dhash": "bb38589d3b1d1c17"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOn_FinishingGloves_Wrist.png?v=1743626469",
+      "product_handle": "handson-finishing-gloves",
+      "product_title": "HandsOn Finishing Gloves",
+      "phash": "eaf4b5da480a3b61",
+      "dhash": "210e0bc1e1e9f1eb"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/DSC_0051-RGB-72.jpg?v=1743626469",
+      "product_handle": "handson-finishing-gloves",
+      "product_title": "HandsOn Finishing Gloves",
+      "phash": "f08b0ff2c4503bb3",
+      "dhash": "505295b48c9d8c46"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOn_FinishingGloves_Fingers.png?v=1743626469",
+      "product_handle": "handson-finishing-gloves",
+      "product_title": "HandsOn Finishing Gloves",
+      "phash": "e816877c0959f2e3",
+      "dhash": "3e66cd3123161303"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOn_GardeningGloves.jpg?v=1743626492",
+      "product_handle": "handson-gardening-gloves",
+      "product_title": "HandsOn Gardening Gloves",
+      "phash": "bee4955ac0b1435b",
+      "dhash": "25270f1f35173f18"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/PSdUaOnSE7bWmtUPp5SMyQU_0_gps_generated.png?v=1750345567",
+      "product_handle": "handson-gardening-gloves",
+      "product_title": "HandsOn Gardening Gloves",
+      "phash": "b2b6d39960d3714c",
+      "dhash": "8d2c2c0d37197844"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/DSC_0118.jpg?v=1743627370",
+      "product_handle": "handson-gardening-gloves",
+      "product_title": "HandsOn Gardening Gloves",
+      "phash": "f5ec8dc9b51e8860",
+      "dhash": "620b952c5c50796e"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/DSC_0625_EDITED-SM.jpg?v=1743627370",
+      "product_handle": "handson-gardening-gloves",
+      "product_title": "HandsOn Gardening Gloves",
+      "phash": "eab4854f19f06396",
+      "dhash": "11440d1b59030318"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/square-categories-no-text_0001_Layer-2.png?v=1743627370",
+      "product_handle": "handson-gardening-gloves",
+      "product_title": "HandsOn Gardening Gloves",
+      "phash": "eb300e9fe1e21f44",
+      "dhash": "733d858f9a6bc363"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/DSC_0639_EDITED.jpg?v=1743627370",
+      "product_handle": "handson-gardening-gloves",
+      "product_title": "HandsOn Gardening Gloves",
+      "phash": "eaca97b193a63036",
+      "dhash": "030325070397166d"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/DSC_0011.jpg?v=1743627370",
+      "product_handle": "handson-gardening-gloves",
+      "product_title": "HandsOn Gardening Gloves",
+      "phash": "82b7d985e24c6e56",
+      "dhash": "97dd25a6cd75f0d9"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOn_Hat_Front.jpg?v=1736799355",
+      "product_handle": "handson-gloves-hat",
+      "product_title": "HandsOn Hat",
+      "phash": "bde0c627841ec61f",
+      "dhash": "8e0f33333b2b3b33"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOn_Hat_Side_Back.jpg?v=1736799354",
+      "product_handle": "handson-gloves-hat",
+      "product_title": "HandsOn Hat",
+      "phash": "fab0c5471ee86117",
+      "dhash": "21461f39780b0710"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOn_Animal_Black.jpg?v=1736799296",
+      "product_handle": "handson-gloves",
+      "product_title": "HandsOn Animal Gloves",
+      "phash": "ae72c5acf24c9543",
+      "dhash": "372b733533333363"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/109211_PT4.jpg?v=1743627362",
+      "product_handle": "handson-gloves",
+      "product_title": "HandsOn Animal Gloves",
+      "phash": "cb1b29b3f6859c14",
+      "dhash": "7b5b616b29d382b6"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/109211_PT1.jpg?v=1743627362",
+      "product_handle": "handson-gloves",
+      "product_title": "HandsOn Animal Gloves",
+      "phash": "aed0936f3094e3d2",
+      "dhash": "9131292e17676671"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/109211_PT2.jpg?v=1743627362",
+      "product_handle": "handson-gloves",
+      "product_title": "HandsOn Animal Gloves",
+      "phash": "b85887c7d135a5c3",
+      "dhash": "393139b139272665"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/109211_PT3.jpg?v=1743627362",
+      "product_handle": "handson-gloves",
+      "product_title": "HandsOn Animal Gloves",
+      "phash": "eb9ec13634c19669",
+      "dhash": "7533231b272f5333"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/4-30-21-Colored-Hero-Images_FINAL_Red.jpg?v=1736799296",
+      "product_handle": "handson-gloves",
+      "product_title": "HandsOn Animal Gloves",
+      "phash": "ae7285acf24cd50b",
+      "dhash": "372b632533337363"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOnGloves_Red.jpg?v=1750274039",
+      "product_handle": "handson-gloves",
+      "product_title": "HandsOn Animal Gloves",
+      "phash": "beb4d05a89c9e788",
+      "dhash": "1d3c0f33333b3933"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOn_Animal_Blue.jpg?v=1736799296",
+      "product_handle": "handson-gloves",
+      "product_title": "HandsOn Animal Gloves",
+      "phash": "ae72c1acf24c954b",
+      "dhash": "372b733533337363"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOn_Animal_Purple.jpg?v=1736799296",
+      "product_handle": "handson-gloves",
+      "product_title": "HandsOn Animal Gloves",
+      "phash": "ae7285acf24cd50b",
+      "dhash": "372b632533337363"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOn_Animal_Mono-Purple-scaled.jpg?v=1736799296",
+      "product_handle": "handson-gloves",
+      "product_title": "HandsOn Animal Gloves",
+      "phash": "aff285b8d2ccd103",
+      "dhash": "332b432519337363"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOn_Animal_Green.jpg?v=1736799296",
+      "product_handle": "handson-gloves",
+      "product_title": "HandsOn Animal Gloves",
+      "phash": "ee729dacd2c4e40a",
+      "dhash": "376b430523337363"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0683/9202/6285/files/HandsOn_Animal_Mono-Green-scaled.jpg?v=1736799296",
+      "product_handle": "handson-gloves",
+      "product_title": "HandsOn Animal Gloves",
+      "phash": "afe08df1d60cf103",
+      "dhash": "27634a251b137363"
+    }
+  ]
+}

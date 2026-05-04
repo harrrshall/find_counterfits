@@ -1,0 +1,146 @@
+{
+  "brand": "handson-gloves",
+  "candidates_checked": 8,
+  "verdict_counts": {
+    "authorized": 2,
+    "unauthorized": 4,
+    "review": 2
+  },
+  "verdicts": [
+    {
+      "seller_host": "protectivepetsolutions.com",
+      "url": "https://protectivepetsolutions.com/products/handson-gloves?srsltid=AfmBOopk6dZj2-zgwzJOZGdc_uXklyijTkCMmx-6p_5BQxJn0cYvc43l",
+      "verdict": "unauthorized",
+      "score": -105,
+      "reasons": [
+        "matched 2 distinctive brand phrase(s)",
+        "page uses authority-claim language without whitelist match: \\b#1 ranked\\b, \\baward[- ]winning\\b",
+        "brand name 'HandsOn Gloves' present on a non-whitelisted seller"
+      ],
+      "evidence": [
+        "phrase=scrubbing nodules on the fingers and palms",
+        "phrase=just a simple flick of the wrist",
+        "claim_language=\\b#1 ranked\\b",
+        "claim_language=\\baward[- ]winning\\b"
+      ],
+      "fetch_status": 200,
+      "seed_title": "HandsOn Gloves",
+      "seed_source": "Protective Pet Solutions"
+    },
+    {
+      "seller_host": "www.amazon.com",
+      "url": "https://www.amazon.com/s?i=merchant-items&me=A4L4GSX1OQUQL",
+      "verdict": "authorized",
+      "score": 85,
+      "reasons": [
+        "Amazon merchant ID A4L4GSX1OQUQL matches brand storefront"
+      ],
+      "evidence": [
+        "amazon_merchant=A4L4GSX1OQUQL"
+      ],
+      "fetch_status": 200,
+      "seed_title": "HandsOn Gloves The Original @ Amazon.com:",
+      "seed_source": "Amazon.com"
+    },
+    {
+      "seller_host": "www.doversaddlery.com",
+      "url": "https://www.doversaddlery.com/products/handson-gloves-in-colors?srsltid=AfmBOor8FQh0HtTs7cfohsYcUV2B8aSKoUu6ILEXAmFFPY__mOdxYc96",
+      "verdict": "authorized",
+      "score": 70,
+      "reasons": [
+        "domain www.doversaddlery.com subdomain-matches authorized domain doversaddlery.com"
+      ],
+      "evidence": [
+        "matched_domain=doversaddlery.com"
+      ],
+      "fetch_status": 200,
+      "seed_title": "HandsOn\u2122 Gloves in Colors",
+      "seed_source": "Dover Saddlery"
+    },
+    {
+      "seller_host": "www.smartpakequine.com",
+      "url": "https://www.smartpakequine.com/pt/handson-gloves-for-grooming-13595?srsltid=AfmBOopyPrDiEWB7rzoS2TuCnCr0HcVLmpFN41Skfh8zQJgypPK3o4BU",
+      "verdict": "unauthorized",
+      "score": -50,
+      "reasons": [
+        "matched 1 distinctive brand phrase(s)",
+        "brand name 'HandsOn Gloves' present on a non-whitelisted seller"
+      ],
+      "evidence": [
+        "phrase=scrubbing nodules on the fingers and palms"
+      ],
+      "fetch_status": 200,
+      "seed_title": "HandsOn\u00ae Gloves for Grooming",
+      "seed_source": "SmartEquine"
+    },
+    {
+      "seller_host": "www.petstore.direct",
+      "url": "https://www.petstore.direct/collections/handson-gloves-for-groomers?srsltid=AfmBOoohSSOA4uI3-fCbFmgpIjDWuaYWZXW5bpBqv5Ths1VwpXzpCL6O",
+      "verdict": "unauthorized",
+      "score": -40,
+      "reasons": [
+        "prices below brand floor $19.99: $15.00",
+        "brand name 'HandsOn Gloves' present on a non-whitelisted seller"
+      ],
+      "evidence": [
+        "price_floor_violation_min=$15.00"
+      ],
+      "fetch_status": 200,
+      "seed_title": "HandsOn Gloves",
+      "seed_source": "Pet Store Direct"
+    },
+    {
+      "seller_host": "www.kingdukes.com",
+      "url": "https://www.kingdukes.com/products/handson-gloves-dog-grooming?srsltid=AfmBOooJlvDNv8SplMaWoS8RjtHo_ClB14VYvRBheiuFZGGkbDn55oLg",
+      "verdict": "review",
+      "score": -10,
+      "reasons": [
+        "domain www.kingdukes.com matches claimed-but-unverified reseller kingdukes.com",
+        "prices below brand floor $19.99: $1.00",
+        "brand name 'HandsOn Gloves' present on a non-whitelisted seller"
+      ],
+      "evidence": [
+        "claimed_reseller=kingdukes.com",
+        "price_floor_violation_min=$1.00"
+      ],
+      "fetch_status": 200,
+      "seed_title": "HandsOn Gloves - Dog Grooming",
+      "seed_source": "King Duke's"
+    },
+    {
+      "seller_host": "www.franklinhorse.com",
+      "url": "https://www.franklinhorse.com/handson-grooming-bathing-gloves.html",
+      "verdict": "unauthorized",
+      "score": -50,
+      "reasons": [
+        "domain www.franklinhorse.com matches claimed-but-unverified reseller franklinhorse.com",
+        "image phash weak-match (dist=10) to brand image 'HandsOn Animal Gloves'",
+        "page uses authority-claim language without whitelist match: \\bpatented\\b, \\baward[- ]winning\\b",
+        "brand name 'HandsOn Gloves' present on a non-whitelisted seller"
+      ],
+      "evidence": [
+        "claimed_reseller=franklinhorse.com",
+        "phash_match_dist=10; brand_src=https://cdn.shopify.com/s/files/1/0683/9202/6285/files/109211_PT3.jpg?v=1743627362",
+        "candidate_image=https://cdn.shoplightspeed.com/shops/642502/files/36455985/300x250x2/handson-handson-grooming-bathing-gloves.jpg",
+        "claim_language=\\bpatented\\b",
+        "claim_language=\\baward[- ]winning\\b"
+      ],
+      "fetch_status": 200,
+      "seed_title": "HandsOn Grooming/Bathing Gloves",
+      "seed_source": "Franklin Saddlery"
+    },
+    {
+      "seller_host": "www.amazon.com",
+      "url": "https://www.amazon.com/hands-grooming-gloves/s?k=hands+on+grooming+gloves",
+      "verdict": "review",
+      "score": 0,
+      "reasons": [
+        "fetch failed (status 503); manual review required"
+      ],
+      "evidence": [],
+      "fetch_status": 503,
+      "seed_title": "Hands On Grooming Gloves",
+      "seed_source": "Amazon.com"
+    }
+  ]
+}
