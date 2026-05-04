@@ -23,8 +23,15 @@ import streamlit as st
 PROJECT_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-# Reuse the existing classifier — its _load_dotenv() runs on import,
-# which means SERPAPI_KEY from .env is already populated.
+# On Streamlit Community Cloud the SERPAPI_KEY lives in st.secrets, not .env.
+# Promote it into os.environ BEFORE importing classify so its _load_dotenv()
+# (which only fills missing keys) won't override it locally either.
+try:
+    if "SERPAPI_KEY" in st.secrets:
+        os.environ.setdefault("SERPAPI_KEY", st.secrets["SERPAPI_KEY"])
+except (FileNotFoundError, st.errors.StreamlitSecretNotFoundError):  # local: no secrets file
+    pass
+
 import classify  # noqa: E402
 
 BRAND_OPTIONS = {

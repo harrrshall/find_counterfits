@@ -210,6 +210,34 @@ The UI has:
 
 ---
 
+## Deploying the Streamlit UI (Streamlit Community Cloud)
+
+Free, native, supports private repos. Three minutes from clone to live URL.
+
+1. Go to **[share.streamlit.io](https://share.streamlit.io)** and sign in with the same GitHub account that owns this repo.
+2. Click **New app**:
+   - Repository: `<your-username>/find_counterfits`
+   - Branch: `master`
+   - Main file path: `app.py`
+3. Click **Advanced settings → Secrets** and paste:
+
+   ```toml
+   SERPAPI_KEY = "your_serpapi_key_here"
+   ```
+
+4. Click **Deploy**. First boot takes ~2 minutes (it pip-installs from `requirements.txt`).
+
+The repo already contains the deploy-relevant config:
+- `runtime.txt` — pins Python to 3.12 (avoids bleeding-edge wheel issues with ImageHash)
+- `requirements.txt` — pinned deps
+- `.streamlit/config.toml` — Streamlit server + theme settings
+- `.streamlit/secrets.toml.example` — template for the Secrets paste
+- `app.py` reads `st.secrets["SERPAPI_KEY"]` on the cloud and falls back to `.env` locally
+
+To update the live app, push to `master` — Streamlit Cloud rebuilds automatically.
+
+---
+
 ## Adding a new brand
 
 The Brand Discovery Agent (`AGENT.md`) is what produces a new profile. The agent's workflow is human-gated:
